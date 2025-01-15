@@ -7,9 +7,10 @@
     <title>INCEPTO '25</title>
     <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Audiowide&family=Bebas+Neue&family=Pattaya&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="margin: 0; height: fit-content;background-color: #101010;font-family: 'Montserrat', sans-serif;color:white">
-    <section class="Home" style="height: 90vh; display: flex;">
+    <section class="Home" style="height: 90vh; display: flex;" id="home">
         <div style="width:40vw">
             
         </div>
@@ -25,9 +26,12 @@
                 30,31 JAN 2025
              </h1>
              <div style="display: flex; justify-content: space-evenly;align-self: center; width: 60%;align-items: center;">
-                <button style="margin-top: 10vh;padding: 2vh 5vh;align-self: center;border:none; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
-                    BROCHURE
-                </button>
+                <a href="brochure.pdf" download="Brochure">
+
+                    <button href="brochure.pdf" download="Brochure" style="margin-top: 10vh;padding: 2vh 5vh;align-self: center;border:none; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
+                        BROCHURE
+                    </button>
+                </a>
                 <button style="margin-top: 10vh;padding: 2vh 5vh;align-self: center;border:none; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
                     REGISTER
                 </button>
@@ -35,19 +39,18 @@
         </div>
     </section>
     <nav class="Navbar" style="border:1px solid black;color:black;z-index: 100;position: sticky; top:0;width: 100vw; height: 10vh; background-color: white;display: flex; justify-content: space-evenly;align-items: center;font-size: 1.2rem;font-weight: 700;text-transform: uppercase;">
-        <p>Home</p>
-        <p>About</p>
-        <p>Events</p>
-        <p>Gallery</p>
-        <p>Contact</p>
+        <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
     </nav>
-    <section class="About" style="min-height:92vh;width: 90vw;padding:0 4vw;display: flex;flex-direction: column;font-size: 1.2rem;">
+    <section class="About" style="min-height:92vh;width: 90vw;padding:0 4vw;display: flex;flex-direction: column;font-size: 1.2rem;" id="about">
         <div>
             <h1 style="font-family: 'Bebas Neue', serif;"><span style="font-size: 5rem;">ABOUT </span>    <span style="font-size: 7rem;">INCEPTO</span></h1>
             <div>
                 <div style="width: 45%;">
-                    Lorem ipsum dolor sit amet. Est inventore pariatur est facilis dolorum et error eaque aut galisum facilis non consequatur sequi id laudantium autem eum Quis delectus? Ea ipsa voluptate quo doloribus aspernatur nam asperiores quia eos incidunt exercitationem eum mollitia porro in quibusdam illo aut optio dolorem.
-                </div>
+                    INCEPTO’25 is an event organized by the Civil Engineering Department of FISAT. It is scheduled for January 30th and 31st, and aims to bring students, professionals, and sponsors together for knowledge-sharing and collaboration. INCEPTO'25 also seeks sponsorships to support and enhance the event, offering numerous promotional benefits for sponsors.                </div>
                 <div>
                     
                 </div>
@@ -59,24 +62,22 @@
                 <div style="width: 45vw;">
 
                 </div>
-                <div style="width: 45%;">
-                    Lorem ipsum dolor sit amet. Est inventore pariatur est facilis dolorum et error eaque aut galisum facilis non consequatur sequi id laudantium autem eum Quis delectus? Ea ipsa voluptate quo doloribus aspernatur nam asperiores quia eos incidunt exercitationem eum mollitia porro in quibusdam illo aut optio dolorem.
-                </div>
+                <div style="width: 45%;" >
+                    The Department of Civil Engineering at FISAT is known for its commitment to academic excellence and professional development. The department actively organizes events like INCEPTO’25 to foster collaboration, innovation, and knowledge-sharing among students, faculty, and industry professionals.                </div>
             </div>
         </div>
         <div>
             <h1 style="font-family: 'Bebas Neue', serif;"><span style="font-size: 5rem;">ABOUT </span>    <span style="font-size: 7rem;">FISAT</span></h1>
             <div>
                 <div style="width: 45%;">
-                    Lorem ipsum dolor sit amet. Est inventore pariatur est facilis dolorum et error eaque aut galisum facilis non consequatur sequi id laudantium autem eum Quis delectus? Ea ipsa voluptate quo doloribus aspernatur nam asperiores quia eos incidunt exercitationem eum mollitia porro in quibusdam illo aut optio dolorem.
-                </div>
+                    The Federal Institute of Science and Technology (FISAT) is located at Hormis Nagar, Mookkannoor, Angamaly, in Ernakulam, Kerala, India (Pin: 683 577). FISAT focuses on excellence in education, providing students with opportunities to grow and excel academically and professionally.                </div>
                 <div>
                     
                 </div>
             </div>
         </div>
     </section>
-    <section class="Events" style="background-color: white;width: 92vw;padding: 0 4vw;height: 90vh;margin-top: 10vh;display: flex;flex-direction: column;">
+    <section id="events" class="Events" style="background-color: white;width: 92vw;padding: 0 4vw;height: 90vh;margin-top: 10vh;display: flex;flex-direction: column;">
         <h1 style="font-size:7rem;margin: 0; padding-top: 30px;font-family: 'Bebas Neue', serif;color:black;">
             EVENTS
         </h1>
@@ -89,7 +90,7 @@
             Click to Explore 🌐
         </button>
     </section>
-    <section class="Gallery" style="width: 92vw;height: 90vh;padding: 0 4vw;">
+    <section id="gallery" class="Gallery" style="width: 92vw;height: 90vh;padding: 0 4vw;">
         <h1 style="font-size:7rem;margin: 0; padding-top: 30px;font-family: 'Bebas Neue', serif;">
             GALLERY
         </h1>
@@ -99,7 +100,7 @@
             <div style="border-right:1px solid black; width:30%">
 
             </div>
-            <div style="border-right:1px solid black; width:32%;padding-left: 3%;">
+            <div style="border-right:1px solid black; width:32%;padding-left: 3%;" id="contact">
                 <p style="font-family: 'Bebas Neue', serif; font-size: 1.5rem;">Contact US</p>
             </div>
             <div style="width: 32%;padding-left: 3%;">
