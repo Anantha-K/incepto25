@@ -2,8 +2,16 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
+button{
+    border:none; 
+}
 button:hover{
     cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    transition-duration: 500ms;
+    background: #000;
 
 }
 

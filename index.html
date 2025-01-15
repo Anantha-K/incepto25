@@ -34,11 +34,11 @@
              </h1>
              <div style="display: flex; justify-content: space-evenly;align-self: center; width: 60%;align-items: center;" class="buttons">
                 <a href="brochure.pdf" download="Brochure">
-                    <button href="brochure.pdf" download="Brochure" style="margin-top: 10vh;padding: 2vh 5vh;align-self: center;border:none; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
+                    <button href="brochure.pdf" download="Brochure" style="margin-top: 10vh;padding: 2vh 5vh;align-self: center; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
                         BROCHURE
                     </button>
                 </a>
-                <button style="margin-top: 10vh;padding: 2vh 5vh;align-self: center;border:none; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
+                <button style="margin-top: 10vh;padding: 2vh 5vh;align-self: center; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
                     REGISTER
                 </button>
              </div>
@@ -115,8 +115,19 @@
             </div>
             <div style="width: 32%;padding-left: 3%;">
                 <p style="font-family: 'Bebas Neue', serif; font-size: 1.5rem;">Send a Message</p>
-                <input type="text" style="border:1px solid black;height: 35px; border-radius: 50px 0 0 50px; width: 75%;"><button style="border-radius: 0 50px 50px 0;height: 39px;border: 1px solid black;">-></button></input>
-                <p style="font-family: 'Bebas Neue', serif; font-size: 1.5rem;">Follow Us</p>
+                <div style="display: flex; align-items: center; gap: 5px; width: 100%; max-width: 500px; margin: auto;">
+                    <input 
+                        type="text" 
+                        placeholder="Type your message..." 
+                        style="border: 1px solid #ccc; border-right: none; height: 40px; border-radius: 50px 0 0 50px; padding: 0 15px; width: 70%; font-size: 1rem; outline: none;"
+                    >
+                    <button 
+                        style="background-color: #000; border: none; border-radius: 0 50px 50px 0; height: 40px; width: 50px; display: flex; align-items: center; justify-content: center; cursor: pointer;"
+                    >
+                        <i class="fas fa-paper-plane" style="color: white; font-size: 1.2rem;"></i>
+                    </button>
+                </div>
+                                <p style="font-family: 'Bebas Neue', serif; font-size: 1.5rem;">Follow Us</p>
                 <a href="https://www.instagram.com/incepto_fisat?igsh=ZTd2dThnY2lwczNk" style="text-decoration: none; color: #000;">
                     <i class="fab fa-instagram" style="font-size: 24px;"></i>
                 </a>
@@ -256,6 +267,8 @@
                 }
             });
         });
+
+     
     </script>
 </body>
 </html>
