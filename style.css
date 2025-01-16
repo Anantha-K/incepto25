@@ -143,7 +143,6 @@ nav a {
         height: 100vh !important;
         width: 100vw !important;
         display: flex;
-        background: red;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
