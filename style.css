@@ -165,9 +165,13 @@ nav a {
         padding: 1.5vh 3vh; 
         margin: 0; 
     }
-    
+    nav{
+    display: none !important;
+    }
 
-    
+    .Events div div{
+        width: 80vw !important;
+    }
     .texts h1 {
         font-size: 1.3rem !important;
     }
