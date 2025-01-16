@@ -18,21 +18,21 @@
 </head>
 <body style="margin: 0; height: fit-content;background-color: #101010;font-family: 'Montserrat', sans-serif;color:white">
     <section class="Home" style="height: 90vh; display: flex;opacity: 0;" id="home">
-        <div style="width:40vw; display: flex; align-items: center; height: full; justify-content: center;">
-            <img src="logo.png" height="450" width="450">
+        <div id="logo" style="width:40vw; display: flex; align-items: center; height: full; justify-content: center;">
+            <img src="logo.png" style="height: 450px; width: 450px;">
         </div>
-        <div style="width:60vw; color: white; display: flex; flex-direction: column; justify-content: center;">
+        <div class="texts" style="width:60vw; color: white; display: flex; flex-direction: column; justify-content: center;">
             <div style="font-size: 1.2rem;" class="dept-text">
                 <p style="padding: 0;margin:0">DEPARTMENT OF</p>
                 <p style="padding: 0;margin:0"><b style="font-size: 2.1rem">CIVIL ENGINEERING</b> PRESENTS...</p>
             </div>
-            <h1 style="font-size:14rem; padding: 0;margin:0;font-family: 'Bebas Neue', serif;" class="main-title">
+            <h1 id="inceptoheading" style="font-size:14rem; padding: 0;margin:0;font-family: 'Bebas Neue', serif;" class="main-title">
                 INCEPTO '25
             </h1>
             <h1 style="font-family: 'Bebas Neue', serif;font-size: 3.5rem;padding: 0;margin:0;align-self: center;" class="date">
                 30,31 JAN 2025
              </h1>
-             <div style="display: flex; justify-content: space-evenly;align-self: center; width: 60%;align-items: center;" class="buttons">
+             <div style="display: flex; justify-content: space-evenly;align-self: center; width: 60%;align-items: center; gap:0 5px" class="buttons">
                 <a href="brochure.pdf" download="Brochure">
                     <button href="brochure.pdf" download="Brochure" style="margin-top: 10vh;padding: 2vh 5vh;align-self: center; border-radius: 5px;font-weight: 600;font-size: 1.01rem;">
                         BROCHURE
@@ -45,7 +45,7 @@
         </div>
     </section>
 
-    
+
     <nav class="Navbar" style="border:1px solid black;color:black;z-index: 100;position: sticky; top:0;width: 100vw; height: 10vh; background-color: white;display: flex; justify-content: space-evenly;align-items: center;font-size: 1.2rem;font-weight: 700;text-transform: uppercase;">
         <a href="#home">Home</a>
         <a href="#about">About</a>

@@ -82,6 +82,24 @@ nav a {
   }
 
   @media screen and (max-width: 768px) {
+    .Home{
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .texts h1{
+        font-size: 1.9rem !important;
+    }
+    #logo img{
+        height: 300px !important;
+        width: 300px !important;
+        margin-top: 40px;
+    }
+    #inceptoheading{
+        font-size: 5rem !important;
+    }
     .About {
       width: 100%;
       padding: 0 2vw;
@@ -108,16 +126,55 @@ nav a {
     }
   }
 
+
+
+
   @media screen and (max-width: 480px) {
+    .Events {
+        padding: 0 15px;
+    }
+
+    .Events .event-card {
+        height: 35vh;
+    }
+    
+    .Home {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons{
+        width: 100%;
+
+    }
+    
+    .texts h1 {
+        font-size: 1.3rem !important;
+    }
+    
+    #logo img {
+        height: 250px !important;
+        width: 250px !important;
+        margin-top: 30px;
+    }
+    
+    #inceptoheading {
+        font-size: 3rem !important;
+    }
+    
     .title-small {
-      font-size: 2.5rem;
+        font-size: 2.5rem;
     }
     
     .title-large {
-      font-size: 4rem;
+        font-size: 4rem;
     }
-
+    
     .About {
-      padding: 0 1rem;
+        padding: 0 1rem;
     }
-  }
+}
