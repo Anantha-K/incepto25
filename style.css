@@ -1,5 +1,5 @@
 html{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     scroll-behavior: smooth;
 }
 
@@ -70,7 +70,6 @@ nav a {
     width: 45vw;
   }
 
-  /* Responsive styles */
   @media screen and (max-width: 1024px) {
     .title-small {
       font-size: 4rem;
@@ -82,6 +81,10 @@ nav a {
   }
 
   @media screen and (max-width: 768px) {
+    #events{
+      width: 100vw !important;
+
+    }
     .Home{
         height: 100vh;
         display: flex;
@@ -130,6 +133,28 @@ nav a {
 
 
   @media screen and (max-width: 480px) {
+    .Footer{
+      height: fit-content !important;
+      padding-bottom: 20px;
+      width: 100vw !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+  
+    }
+    footer{
+      height: fit-content !important;
+      width: 90vw !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+    }
+    .event-card{
+      height: 40vh !important;
+      width: 20vw !important;
+    }
  
     .Events {
         padding: 0 15px;
@@ -142,6 +167,9 @@ nav a {
     .Home {
         height: 100vh !important;
         width: 100vw !important;
+        background: red;
+        padding: 0 !important;
+        margin: 0 !important;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
