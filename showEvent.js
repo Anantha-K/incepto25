@@ -160,3 +160,6 @@ const events = [
     }
   ];
   
+const currentURL = window.location.href
+console.log(events[parseInt(currentURL[currentURL.length-2]+currentURL[currentURL.length-1])])
+
