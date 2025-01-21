@@ -4,7 +4,14 @@ const events = [
       name: "Cube Casting",
       img: "cube_casting.jpg",
       price: 100,
-      desc: "An event to showcase your casting skills.",
+      desc: `All participants must register before the deadline.
+      Materials for the workability test and cube casting will be provided.
+     A mix design report of M30 is to be prepared as per IS 10262:2019. (Material properties will be provided.)
+     Workability test and cube casting will be conducted on 31/01/2025
+     Testing of cubes is scheduled at 10:00am on the date 07/02/2025 at Material Testing Lab, FISAT.
+     Only 4 members are allowed per team and must carry their college ID cards for verification.
+      Certicates will be provided to all participants.
+     `,
       date: "2025-02-01",
       type: "Technical"
     },
