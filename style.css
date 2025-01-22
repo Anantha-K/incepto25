@@ -288,6 +288,18 @@ nav a:hover {
     width: 90vw;
   }
 
+  #rightabout {
+    width: 90vw;
+  }
+
+  #rightabout>div {
+    width: 100% !important;
+  }
+
+  #rightaboutcontainer {
+    flex-direction: column-reverse !important;
+  }
+
   .et-content {
     flex-direction: column;
   }
