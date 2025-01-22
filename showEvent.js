@@ -18,63 +18,100 @@ const events = [
     },
     {
       name: "Idea Pitching",
-      img: "idea_pitching.jpg",
-      price: 150,
-      desc: "Pitch your innovative ideas.",
+      img: "./public/ideapitching.webp",
+      price: 300,
+      desc: `Team size : 4 members (ID card is mandatory).
+      A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
+     The presentation time is 15 minutes. Teams must adhere to this time limit. 
+     Reporting time : 15 minutes before the allotted time. 
+     The evaluation will be based on the problem understanding, methodology or approach used, proposed solution, feasibility analysis.
+     Decision of the evaluation panel will be final and binding. 
+      Participation certificates will be provided.`,
       date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeuQ9y88s6Z8cyFmMbvM71PWEK0bWFBMs5v_8aV2tX96A84kg/viewform?usp=header"
     },
     {
       name: "Geothon",
-      img: "geothon.jpg",
-      price: 200,
-      desc: "A geological hackathon challenge.",
+      img: "./public/geothon.webp",
+      price: 600,
+      desc: `Team size : 4 members (ID card is mandatory).
+      A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
+     The presentation time is 15 minutes. Teams must adhere to this time limit. 
+     Reporting time : 15 minutes before the allotted time. 
+     The evaluation will be based on the problem understanding, methodology or approach used, proposed solution, feasibility analysis.
+     Decision of the evaluation panel will be final and binding. 
+      Participation certificates will be provided.`,
       date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSchEE7yqQVns7QvXALp6aeAZsaoLx9WL13CBtlsHQ8N0OXKUQ/viewform?usp=header"
     },
     {
-      name: "Quiz",
-      img: "quiz.jpg",
-      price: 50,
-      desc: "Test your knowledge in this quiz event.",
+      name: "Brain Battle",
+      img: "./public/brainbattle.webp",
+      price: 100,
+      desc: `Team size: 2 members (ID card is mandatory)
+      Questions will be from engineering background.
+      Time will depend upon each round.
+      There will be a total of four rounds with 2 teams being eliminated in each round. 
+      Participation Certificates will be provided.`,
       date: "31st Jan 2025",
       type: "Technical",
       reg:" https://docs.google.com/forms/d/e/1FAIpQLSfNW-hnuNUjkFuR83HJwl55lqGPYSxu98YrsZiNjFlfZ7m69Q/viewform?usp=header"
     },
     {
       name: "Autocad",
-      img: "autocad.jpg",
-      price: 300,
-      desc: "An AutoCAD design competition.",
+      img: "./public/autocad.webp",
+      price: 150,
+      desc: `Individual Participation (ID card is mandatory).
+      Participants are expected to develop a plan, section and elevation from the line sketch provided. 
+       Allotted time for the competition is 2.5 hours.
+       Evaluation will be based on clarity and completeness of drawing, detailing and annotation. 
+       Decision of the evaluation panel will be final and binding. 
+       Certificates will be provided to all the participants. `,
       date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeJWTNEzr8krArwS_ukBIaoKlxSsANS_XyZt28jTPkPk-RBwg/viewform?usp=header"
     },
     {
       name: "Disaster Zone Escape",
-      img: "disaster_escape.jpg",
-      price: 200,
-      desc: "Escape the disaster zone with teamwork.",
+      img: "./cs.webp",
+      price: 300,
+      desc: `Team size: 2 members (ID card is mandatory).
+      Participants are expected to develop a evacuation and mitigation plan using flow charts, sketches, charts or models 3
+      allotted time for the competition is two hours. 
+      Evaluation will be based on practicality, creativity and resource management while addressing the disaster 
+      Decision of the evaluation panel will be final and binding 
+      Certificates will be provided to all the participants.`,
       date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSfdsGXm3C4cug2a1fCOUbNIJFLS98Ud4icf4cQcRXq71OTiew/viewform?usp=header"
     },
     {
       name: "The Time Capsule Design",
-      img: "time_capsule.jpg",
-      price: 250,
-      desc: "Design a futuristic time capsule.",
+      img: "./public/timecapsule.webp",
+      price: 200,
+      desc: `Team size: 2 members (ID card is mandatory). 
+      Participants are expected to design a futuristic building for 100 years from now. 
+      Presentation must include structural feasibility,sustainability aspects,materials used and visual representations. 
+     A hardcopy of presentation must be submitted on 31/01/25.
+      Presentation must be completed within 10 mins and followed by a 2 min Q &A session. 
+      Decision of evaluation panel will be final and binding. 
+      Certificates will be provided to all participants.`,
       date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSdrtDbrLqeJNaffiicvIsz8GtWMXmtu-AQcpn13C0ixBh0QsA/viewform?usp=header"
     },
     {
-      name: "Debate",
-      img: "debate.jpg",
-      price: 100,
-      desc: "Debate on various interesting topics.",
+      name: "Debate Dual",
+      img: "./public/debate.webp",
+      price: 200,
+      desc: `Team size: 2 member (ID card is mandatory).
+      Teams will be divided into two groups: those supporting the motion (affirmative) and those opposing it (negative). 
+     Teams will be given 10 minutes to prepare once the topic is announced. 
+     Evaluation of debate is based on content, delivery, engagement and strategy. 
+     The decision of the evaluation panel will be final and binding. 
+     Certificates will be provided to all the participants.`,
       date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSdrtDbrLqeJNaffiicvIsz8GtWMXmtu-AQcpn13C0ixBh0QsA/viewform?usp=header"
