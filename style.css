@@ -304,7 +304,7 @@ nav a:hover {
   }
 
   .event-card {
-    min-height: 60vh;
+    margin: 5vh 0;
     min-width: 80vw !important;
   }
 }

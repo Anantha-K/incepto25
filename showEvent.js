@@ -2,8 +2,8 @@ const events = [
     // Technical events
     {
       name: "Cube Casting",
-      img: "cubix.webp",
-      price: 100,
+      img: "./public/cubix.webp",
+      price: 500,
       desc: `All participants must register before the deadline.
       Materials for the workability test and cube casting will be provided.
      A mix design report of M30 is to be prepared as per IS 10262:2019. (Material properties will be provided.)
@@ -12,7 +12,7 @@ const events = [
      Only 4 members are allowed per team and must carry their college ID cards for verification.
       Certicates will be provided to all participants.
      `,
-      date: "2025-02-01",
+      date: "31st Jan 2025",
       type: "Technical",
       reg: "https://docs.google.com/forms/d/e/1FAIpQLSeAesB2_QojVnuRAOfKeIqISMf3SEZBbsF_jsLbDQ2-jOB_qA/viewform?usp=header"
     },
@@ -21,7 +21,7 @@ const events = [
       img: "idea_pitching.jpg",
       price: 150,
       desc: "Pitch your innovative ideas.",
-      date: "2025-02-02",
+      date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeuQ9y88s6Z8cyFmMbvM71PWEK0bWFBMs5v_8aV2tX96A84kg/viewform?usp=header"
     },
@@ -30,7 +30,7 @@ const events = [
       img: "geothon.jpg",
       price: 200,
       desc: "A geological hackathon challenge.",
-      date: "2025-02-03",
+      date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSchEE7yqQVns7QvXALp6aeAZsaoLx9WL13CBtlsHQ8N0OXKUQ/viewform?usp=header"
     },
@@ -39,7 +39,7 @@ const events = [
       img: "quiz.jpg",
       price: 50,
       desc: "Test your knowledge in this quiz event.",
-      date: "2025-02-04",
+      date: "31st Jan 2025",
       type: "Technical",
       reg:" https://docs.google.com/forms/d/e/1FAIpQLSfNW-hnuNUjkFuR83HJwl55lqGPYSxu98YrsZiNjFlfZ7m69Q/viewform?usp=header"
     },
@@ -48,7 +48,7 @@ const events = [
       img: "autocad.jpg",
       price: 300,
       desc: "An AutoCAD design competition.",
-      date: "2025-02-05",
+      date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeJWTNEzr8krArwS_ukBIaoKlxSsANS_XyZt28jTPkPk-RBwg/viewform?usp=header"
     },
@@ -57,7 +57,7 @@ const events = [
       img: "disaster_escape.jpg",
       price: 200,
       desc: "Escape the disaster zone with teamwork.",
-      date: "2025-02-06",
+      date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSfdsGXm3C4cug2a1fCOUbNIJFLS98Ud4icf4cQcRXq71OTiew/viewform?usp=header"
     },
@@ -66,7 +66,7 @@ const events = [
       img: "time_capsule.jpg",
       price: 250,
       desc: "Design a futuristic time capsule.",
-      date: "2025-02-07",
+      date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSdrtDbrLqeJNaffiicvIsz8GtWMXmtu-AQcpn13C0ixBh0QsA/viewform?usp=header"
     },
@@ -75,7 +75,7 @@ const events = [
       img: "debate.jpg",
       price: 100,
       desc: "Debate on various interesting topics.",
-      date: "2025-02-08",
+      date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSdrtDbrLqeJNaffiicvIsz8GtWMXmtu-AQcpn13C0ixBh0QsA/viewform?usp=header"
     },
@@ -212,3 +212,13 @@ econtent.innerText = currentEvent.desc
 
 const registerEvent = document.getElementById("register-event")
 registerEvent.href = currentEvent.reg
+
+const erate = document.getElementById("erate")
+erate.innerHTML = "RATE : "+currentEvent.price
+
+const eventDate = document.getElementById("eventDate")
+eventDate.innerHTML = "DATE : " +currentEvent.date
+
+const eventCard = document.getElementsByClassName("event-card")
+eventCard[0].style.background = `url(${currentEvent.img})`;
+eventCard[0].style.backgroundSize = "cover";
