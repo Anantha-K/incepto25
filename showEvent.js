@@ -2,7 +2,7 @@ const events = [
     // Technical events
     {
       name: "Cube Casting",
-      img: "./public/cubix.webp",
+      img: "./notpublic/cubix.webp",
       price: 500,
       desc: `All participants must register before the deadline.
       Materials for the workability test and cube casting will be provided.
@@ -18,7 +18,7 @@ const events = [
     },
     {
       name: "Idea Pitching",
-      img: "./public/ideapitching.webp",
+      img: "./notpublic/ideapitching.webp",
       price: 300,
       desc: `Team size : 4 members (ID card is mandatory).
       A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
@@ -33,7 +33,7 @@ const events = [
     },
     {
       name: "Geothon",
-      img: "./public/geothon.webp",
+      img: "./notpublic/geothon.webp",
       price: 600,
       desc: `Team size : 4 members (ID card is mandatory).
       A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
@@ -48,7 +48,7 @@ const events = [
     },
     {
       name: "Brain Battle",
-      img: "./public/brainbattle.webp",
+      img: "./notpublic/brainbattle.webp",
       price: 100,
       desc: `Team size: 2 members (ID card is mandatory)
       Questions will be from engineering background.
@@ -61,7 +61,7 @@ const events = [
     },
     {
       name: "Autocad",
-      img: "./public/autocad.webp",
+      img: "./notpublic/autocad.webp",
       price: 150,
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
@@ -89,7 +89,7 @@ const events = [
     },
     {
       name: "The Time Capsule Design",
-      img: "./public/timecapsule.webp",
+      img: "./notpublic/timecapsule.webp",
       price: 200,
       desc: `Team size: 2 members (ID card is mandatory). 
       Participants are expected to design a futuristic building for 100 years from now. 
@@ -104,7 +104,7 @@ const events = [
     },
     {
       name: "Debate Dual",
-      img: "./public/debate.webp",
+      img: "./notpublic/debate.webp",
       price: 200,
       desc: `Team size: 2 member (ID card is mandatory).
       Teams will be divided into two groups: those supporting the motion (affirmative) and those opposing it (negative). 
@@ -256,6 +256,6 @@ erate.innerHTML = "RATE : "+currentEvent.price
 const eventDate = document.getElementById("eventDate")
 eventDate.innerHTML = "DATE : " +currentEvent.date
 
-// const eventCard = document.getElementsByClassName("event-card")
-// eventCard[0].style.background = `url(${currentEvent.img})`;
-// eventCard[0].style.backgroundSize = "cover";
+const eventCard = document.getElementsByClassName("event-card")
+eventCard[0].style.background = `url(${currentEvent.img})`;
+eventCard[0].style.backgroundSize = "cover";
