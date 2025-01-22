@@ -245,8 +245,16 @@ nav a:hover {
     margin-top: 30px;
   }
 
+  .date {
+    font-size: 1.2rem !important;
+  }
+
   #inceptoheading {
     font-size: 6.5rem !important;
+  }
+
+  #civilEngg {
+    font-size: 1rem !important;
   }
 
   .title-small {
