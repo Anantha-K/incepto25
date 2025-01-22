@@ -295,6 +295,18 @@ nav a:hover {
   .schedule-info {
     width: 80vw !important;
   }
+
+  .events-events {
+    flex-wrap: nowrap !important;
+    /* border: 1px solid; */
+    overflow-x: scroll !important;
+    /* margin-left: 0 !important; */
+  }
+
+  .event-card {
+    min-height: 60vh;
+    min-width: 80vw !important;
+  }
 }
 
 .schedule-info {
