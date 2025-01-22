@@ -241,7 +241,8 @@ const events = [
       Committee have the right to change the rules, regulations and fixtures as required
       `,
       date: "24,25 Jan 2025",
-      type: "Other"
+      type: "Other",
+      reg:"#"
     }
   ];
   
