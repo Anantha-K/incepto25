@@ -153,18 +153,33 @@ const schedule = {
       const scheduleItem = document.createElement('div');
       scheduleItem.className = 'schedule-item';
 
-      const time = document.createElement('p');
-      time.className = 'schedule-time';
-      time.textContent = item.time;
+      const date = document.createElement('p');
+        date.className = 'schedule-date';
+        date.textContent = item.date;
 
-      const event = document.createElement('p');
-      event.className = 'schedule-event';
-      event.textContent = item.event;
+        const info = document.createElement('div');
+        info.className = 'schedule-info';
 
-      scheduleItem.appendChild(time);
-      scheduleItem.appendChild(event);
+        const time = document.createElement('p');
+        time.className = 'schedule-time';
+        time.textContent = item.time;
 
-      container.appendChild(scheduleItem);
+        const event = document.createElement('p');
+        event.className = 'schedule-event';
+        event.textContent = item.event;
+
+        // const venue = document.createElement('p');
+        // venue.className = 'schedule-venue';
+        // venue.textContent = item.venue;
+
+        info.appendChild(time);
+        info.appendChild(event);
+        // info.appendChild(venue);
+
+        scheduleItem.appendChild(date);
+        scheduleItem.appendChild(info);
+
+        container.appendChild(scheduleItem);
     });
   }
 

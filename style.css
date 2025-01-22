@@ -245,3 +245,14 @@ nav a:hover {
     min-width: 80% !important;
   }
 }
+
+.schedule-info {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(101, 101, 101);
+  display: flex;
+  width: 52vw;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
