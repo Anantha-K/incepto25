@@ -271,6 +271,23 @@ nav a:hover {
     padding: 0 2vw !important;
   }
 
+  .about-section {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px
+  }
+
+  .videoAbout {
+    width: 90vw;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .empty-div {
+    width: 90vw;
+  }
+
   .et-content {
     flex-direction: column;
   }
