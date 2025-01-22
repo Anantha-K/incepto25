@@ -2,7 +2,7 @@ const events = [
     // Technical events
     {
       name: "Cube Casting",
-      img: "cube_casting.jpg",
+      img: "cubix.webp",
       price: 100,
       desc: `All participants must register before the deadline.
       Materials for the workability test and cube casting will be provided.
