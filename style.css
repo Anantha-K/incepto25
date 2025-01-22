@@ -161,6 +161,10 @@ nav a:hover {
 
   }
 
+  footer>div {
+    border: none !important;
+  }
+
   .event-card {
     height: 40vh !important;
     width: 20vw !important;
@@ -222,7 +226,7 @@ nav a:hover {
   }
 
   .texts h1 {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 
   #logo img {
@@ -232,7 +236,7 @@ nav a:hover {
   }
 
   #inceptoheading {
-    font-size: 3rem !important;
+    font-size: 6rem !important;
   }
 
   .title-small {
@@ -255,6 +259,23 @@ nav a:hover {
 
   .et-content>div {
     min-width: 80% !important;
+  }
+
+  .button-container {
+    /* border: 1px solid; */
+    margin: 0 !important;
+    margin-left: 18vw !important;
+    width: 60vw !important;
+    margin-top: 6vh !important;
+  }
+
+  .schedule {
+    /* border: 1px solid; */
+    margin: 0 !important;
+  }
+
+  .schedule-info {
+    width: 80vw !important;
   }
 }
 
