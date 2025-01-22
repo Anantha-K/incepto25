@@ -256,6 +256,6 @@ erate.innerHTML = "RATE : "+currentEvent.price
 const eventDate = document.getElementById("eventDate")
 eventDate.innerHTML = "DATE : " +currentEvent.date
 
-const eventCard = document.getElementsByClassName("event-card")
-eventCard[0].style.background = `url(${currentEvent.img})`;
-eventCard[0].style.backgroundSize = "cover";
+// const eventCard = document.getElementsByClassName("event-card")
+// eventCard[0].style.background = `url(${currentEvent.img})`;
+// eventCard[0].style.backgroundSize = "cover";
