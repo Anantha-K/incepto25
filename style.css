@@ -94,7 +94,7 @@ nav a:hover {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    /* border: 1px solid; */
   }
 
   .texts h1 {
@@ -168,11 +168,14 @@ nav a:hover {
 
   .Events {
     width: 96vw !important;
-    padding: 0 2vw;
+    /* border: 1px solid; */
+    padding: 0 0vw !important;
   }
 
   .Events .event-card {
-    height: 35vh;
+    min-height: 55vh;
+    margin-left: 2vw;
+    min-width: 80vw !important;
   }
 
   .Home {
@@ -209,8 +212,13 @@ nav a:hover {
     display: none !important;
   }
 
-  .Events div div {
-    width: 80vw !important;
+  .Events div {
+    /* border: 1px solid; */
+    width: 96vw;
+    height: max-content;
+    padding: 0 1vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
 
   .texts h1 {
@@ -237,7 +245,7 @@ nav a:hover {
 
   .About {
     width: 96vw;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 0 2vw !important;
   }
 
