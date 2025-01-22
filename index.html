@@ -54,51 +54,57 @@
         <a href="#contact">Contact</a>
     </nav>
     <section class="About" id="about">
-        <div class="about-section">
-          <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-            <span class="title-small">ABOUT </span>
-            <span class="title-large">INCEPTO</span>
-          </h1>
-          <div>
+        <div class="about-section" style="display: flex;">
+          <div style="display: flex; flex-direction: column;">
+            <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
+              <span class="title-small">ABOUT </span>
+              <span class="title-large">INCEPTO</span>
+            </h1>
             <div class="text-content">
-              INCEPTO'25 is an event organized by the Civil Engineering Department of FISAT. Spanning across two days on 31st January and 1st February 2025; the event will bring out your technical skills, professionalism and expertise.
+              INCEPTO'25 is an event organized by the Civil Engineering Department of FISAT.<br/> Spanning across two days on 31st January and 1st February 2025; the event will bring out your technical skills, professionalism and expertise.
             </div>
-            <div class="empty-div"></div>
           </div>
+            <div class="empty-div">
+              <video src="./images/aboutIncepto.mp4" autoplay loop muted width="200px"></video>
+            </div>
         </div>
       
-        <div class="about-section" style="text-align: right;">
-          <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-            <span class="title-small">ABOUT </span>
-            <span class="title-large">DEPT</span>
-          </h1>
-          <div>
-            <div class="empty-div"></div>
-            <div class="text-content">
+        <div class="about-section" style="text-align: right; display: flex;margin-top: 10vh;">
+          <div class="empty-div" style="min-width: 40vw;">
+              <video src="./images/aboutDept.mp4" autoplay loop muted width="200px"></video>
+          </div>
+          <div style="display: flex; flex-direction: column;text-align: right;">
+            <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
+              <span class="title-small">ABOUT </span>
+              <span class="title-large">DEPT</span>
+            </h1>
+            <div class="text-content" style="align-self:end; width: 40vw;">
               The Department of Civil Engineering at FISAT is known for its commitment to academic excellence and professional development. The department actively organizes events like INCEPTO'25 to foster collaboration, innovation, and knowledge-sharing among students, faculty, and industry professionals.
             </div>
           </div>
         </div>
       
-        <div class="about-section">
-          <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-            <span class="title-small">ABOUT </span>
-            <span class="title-large">FISAT</span>
-          </h1>
-          <div>
-            <div class="text-content">
+        <div class="about-section" style="display: flex;">
+          <div style="display: flex; flex-direction: column;">
+            <h1 style="background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
+              <span class="title-small">ABOUT </span>
+              <span class="title-large">FISAT</span>
+            </h1>
+            <div class="text-content" style="width: 80%;">
               The Federal Institute of Science and Technology (FISAT) is located at Hormis Nagar, Mookkannoor, Angamaly, in Ernakulam, Kerala, India (Pin: 683 577). FISAT focuses on excellence in education, providing students with opportunities to grow and excel academically and professionally.
             </div>
-            <div class="empty-div"></div>
+          </div>
+          <div class="empty-div" style="margin-top: 10vh;">
+            <video src="./images/aboutFISAT.mp4" autoplay loop muted height="320px"></video>
           </div>
         </div>
       </section>
-    <section id="events" class="Events" style="background: linear-gradient(135deg, #ffd700, #e6b800, #b8860b, #8b6914);width: 92vw;padding: 0 4vw;height: 90vh;margin-top: 10vh;display: flex;flex-direction: column;">
-        <h1 style="font-size:7rem;margin: 0; padding-top: 30px;font-family: 'Bebas Neue', serif;color:black;" class="section-title">
+    <section id="events" class="Events" style="width: 92vw;padding: 0 4vw;height: 90vh;margin-top: 10vh;display: flex;flex-direction: column;">
+        <h1 style="font-size:7rem;margin: 0; padding-top: 30px;font-family: 'Bebas Neue', serif;color:black;background: linear-gradient(90deg, #f3c623, #c99806);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" class="section-title">
             EVENTS
         </h1>
         <div style="margin-top: 30px;display: flex; overflow-x: scroll;justify-content: space-between;height: fit-content;">
-            <div style="border-radius: 15px; height:50vh; width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
+            <div style="border-radius: 15px; height:50vh; width:20vw;background:url(./notpublic/autocad.webp);background-size: cover;" class="event-card">
             </div>
             
             <div style="border-radius: 15px; height:50vh; width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
@@ -110,8 +116,8 @@
             <div style="border-radius: 15px; height:50vh; width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
             </div>
         </div>
-        <button style="margin-top: 40px;padding: 2vh 5vw;align-self: center;border:none; border-radius: 50px;font-weight: 600;font-size: 1.01rem;background-color: black;color: white;" class="explore-btn">
-          <a href="./events.html" style="color:white;text-decoration: none;">Click to Explore 🌐</a>
+        <button style="margin-top: 40px;padding: 2vh 5vw;align-self: center;border:none; border-radius: 50px;font-weight: 600;font-size: 1.01rem;background:linear-gradient(135deg, #ffd700, #e6b800, #b8860b, #8b6914);color: white;" class="explore-btn">
+          <a href="./events.html" style="color:black;text-decoration: none;">Click to Explore 🌐</a>
         </button>
     </section>
     <section id="schedule" class="schedule" style="width: 92vw;min-height: 90vh;height:fit-content;padding: 0 4vw;">
