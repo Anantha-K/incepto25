@@ -203,5 +203,3 @@ const econtent = document.getElementById("econtent")
 econtent.innerText = currentEvent.desc
 
 
-
-

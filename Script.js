@@ -129,3 +129,44 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+const schedule = {
+    day1: [
+      { time: "10:30am-11:30am", event: "Geothon", venue: "Library seminar hall" },
+      { time: "11:00am-12:30pm", event: "Quiz", venue: "Mtech classroom" },
+      { time: "10:00am-12:30pm", event: "Cube Casting", venue: "Material Testing Lab" },
+      { time: "2:30pm-4:00pm", event: "Time Capsule", venue: "S7 CEB classroom" },
+      { time: "2:00pm-4:00pm", event: "Idea Pitching", venue: "Civil Seminar hall" },
+    ],
+    day2: [
+      { time: "1:30pm-3:30pm", event: "Geothon", venue: "Library seminar hall" },
+      { time: "10:30am-12:00pm", event: "The Disaster Zone Escape", venue: "S7 CE A classroom" },
+      { time: "1:30pm-2:30pm", event: "Debate", venue: "Civil Seminar hall" },
+      { time: "2:00pm-4:00pm", event: "Autocad", venue: "CADD lab" },
+    ]
+  };
+
+  function showSchedule(day) {
+    const container = document.getElementById('schedule-container');
+    container.innerHTML = ''; // Clear previous schedule
+
+    schedule[day].forEach(item => {
+      const scheduleItem = document.createElement('div');
+      scheduleItem.className = 'schedule-item';
+
+      const time = document.createElement('p');
+      time.className = 'schedule-time';
+      time.textContent = item.time;
+
+      const event = document.createElement('p');
+      event.className = 'schedule-event';
+      event.textContent = item.event;
+
+      scheduleItem.appendChild(time);
+      scheduleItem.appendChild(event);
+
+      container.appendChild(scheduleItem);
+    });
+  }
+
+  // Show Day 1 schedule by default
+  showSchedule('day1');
