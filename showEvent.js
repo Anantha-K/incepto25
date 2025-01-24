@@ -63,8 +63,8 @@ const events = [
       reg:" https://docs.google.com/forms/d/e/1FAIpQLSfNW-hnuNUjkFuR83HJwl55lqGPYSxu98YrsZiNjFlfZ7m69Q/viewform?usp=header"
     },
     {
-      name: "Caad Edge",
-      img: "./notpublic/autocad.webp",
+      name: "Cad Edge",
+      img: "./notpublic/cadedge.webp",
       price: "₹150",
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
@@ -78,7 +78,7 @@ const events = [
     },
     {
       name: "Disaster Zone Escape",
-      img: "./cs.webp",
+      img: "./notpublic/dis.webp",
       price: "₹300",
       desc: `Team size: 2 members (ID card is mandatory).
       Participants are expected to develop a evacuation and mitigation plan using flow charts, sketches, charts or models 3
