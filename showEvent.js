@@ -1,9 +1,24 @@
 const events = [
     // Technical events
     {
+        name: "Geothon",
+        img: "./notpublic/geothon.webp",
+        price: "₹600",
+        desc: `Team size : 4 members (ID card is mandatory).
+        A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
+       The presentation time is 15 minutes. Teams must adhere to this time limit. 
+       Reporting time : 15 minutes before the allotted time. 
+       The evaluation will be based on the problem understanding, methodology or approach used, proposed solution, feasibility analysis.
+       Decision of the evaluation panel will be final and binding. 
+        Participation certificates will be provided.`,
+        date: "31st Jan 2025",
+        type: "Technical",
+        reg:"https://docs.google.com/forms/d/e/1FAIpQLSchEE7yqQVns7QvXALp6aeAZsaoLx9WL13CBtlsHQ8N0OXKUQ/viewform?usp=header"
+      },
+    {
       name: "Cube Casting",
       img: "./notpublic/cubix.webp",
-      price: 500,
+      price: "₹400",
       desc: `All participants must register before the deadline.
       Materials for the workability test and cube casting will be provided.
      A mix design report of M30 is to be prepared as per IS 10262:2019. (Material properties will be provided.)
@@ -19,37 +34,25 @@ const events = [
     {
       name: "Idea Pitching",
       img: "./notpublic/ideapitching.webp",
-      price: 300,
-      desc: `Team size : 4 members (ID card is mandatory).
-      A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
-     The presentation time is 15 minutes. Teams must adhere to this time limit. 
-     Reporting time : 15 minutes before the allotted time. 
-     The evaluation will be based on the problem understanding, methodology or approach used, proposed solution, feasibility analysis.
-     Decision of the evaluation panel will be final and binding. 
-      Participation certificates will be provided.`,
+      price: "₹300",
+      desc: `Team size: 2 members (ID card is mandatory).
+      The topic should focus on a civil engineering solution to a socially relevant issue.
+      Teams can utilize presentations to ensure that the content is presented in a clear and legible format.
+      Submit your presentation slides by January 30, 2025 (Google form will be provided)
+      Reporting time: 15 minutes before the allotted time
+      Each team is allocated a maximum of 10 minutes for their presentation. 
+      Exceeding this time limit will result in a deduction of marks for every extra minute.
+      Evaluation criteria include topic relevance, solution feasibility, and presentation clarity.
+      Certificates will be provided to all participants.
+      `,
       date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeuQ9y88s6Z8cyFmMbvM71PWEK0bWFBMs5v_8aV2tX96A84kg/viewform?usp=header"
     },
     {
-      name: "Geothon",
-      img: "./notpublic/geothon.webp",
-      price: 600,
-      desc: `Team size : 4 members (ID card is mandatory).
-      A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
-     The presentation time is 15 minutes. Teams must adhere to this time limit. 
-     Reporting time : 15 minutes before the allotted time. 
-     The evaluation will be based on the problem understanding, methodology or approach used, proposed solution, feasibility analysis.
-     Decision of the evaluation panel will be final and binding. 
-      Participation certificates will be provided.`,
-      date: "31st Jan 2025",
-      type: "Technical",
-      reg:"https://docs.google.com/forms/d/e/1FAIpQLSchEE7yqQVns7QvXALp6aeAZsaoLx9WL13CBtlsHQ8N0OXKUQ/viewform?usp=header"
-    },
-    {
       name: "Brain Battle",
       img: "./notpublic/brainbattle.webp",
-      price: 100,
+      price: "₹100",
       desc: `Team size: 2 members (ID card is mandatory)
       Questions will be from engineering background.
       Time will depend upon each round.
@@ -60,9 +63,9 @@ const events = [
       reg:" https://docs.google.com/forms/d/e/1FAIpQLSfNW-hnuNUjkFuR83HJwl55lqGPYSxu98YrsZiNjFlfZ7m69Q/viewform?usp=header"
     },
     {
-      name: "Autocad",
+      name: "Caad Edge",
       img: "./notpublic/autocad.webp",
-      price: 150,
+      price: "₹150",
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
        Allotted time for the competition is 2.5 hours.
@@ -76,7 +79,7 @@ const events = [
     {
       name: "Disaster Zone Escape",
       img: "./cs.webp",
-      price: 300,
+      price: "₹300",
       desc: `Team size: 2 members (ID card is mandatory).
       Participants are expected to develop a evacuation and mitigation plan using flow charts, sketches, charts or models 3
       allotted time for the competition is two hours. 
@@ -90,7 +93,7 @@ const events = [
     {
       name: "The Time Capsule Design",
       img: "./notpublic/timecapsule.webp",
-      price: 200,
+      price: "₹200",
       desc: `Team size: 2 members (ID card is mandatory). 
       Participants are expected to design a futuristic building for 100 years from now. 
       Presentation must include structural feasibility,sustainability aspects,materials used and visual representations. 
@@ -105,7 +108,7 @@ const events = [
     {
       name: "Debate Dual",
       img: "./notpublic/debate.webp",
-      price: 200,
+      price: "₹200",
       desc: `Team size: 2 member (ID card is mandatory).
       Teams will be divided into two groups: those supporting the motion (affirmative) and those opposing it (negative). 
      Teams will be given 10 minutes to prepare once the topic is announced. 
@@ -227,7 +230,7 @@ const events = [
     {
       name: "Tournament",
       img: "./notpublic/football.webp",
-      price: 2000,
+      price: "₹2000",
       desc: `The registration is limited to the first 16 teams only.
       Players must wear boots, socks, jerseys and shin guards
       Total game time: 30 minutes (Two halves of 15 min each)
@@ -263,7 +266,7 @@ const registerEvent = document.getElementById("register-event")
 registerEvent.href = currentEvent.reg
 
 const erate = document.getElementById("erate")
-erate.innerHTML = "RATE : "+currentEvent.price
+erate.innerHTML = "REG FEES : "+currentEvent.price
 
 const eventDate = document.getElementById("eventDate")
 eventDate.innerHTML = "DATE : " +currentEvent.date
