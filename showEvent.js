@@ -18,7 +18,6 @@ const events = [
     {
       name: "Cube Casting",
       img: "./notpublic/cubix.webp",
-<<<<<<< HEAD
       price: "₹400",
       desc: `All participants must register before the deadline.
       Materials for the workability test and cube casting will be provided.
@@ -27,20 +26,6 @@ const events = [
      Testing of cubes is scheduled at 10:00am on the date 07/02/2025 at Material Testing Lab, FISAT.
      Only 4 members are allowed per team and must carry their college ID cards for verification.
       Certicates will be provided to all participants.
-=======
-      price: 500,
-      desc: `Team Size: 4 members (ID Card is mandatory)
-      A mix design report of M30 is to be prepared as per IS 10262:2019. (Material properties will be provided) 
-    Target strength to be attained = 30MPa
-    Materials for workability test and cube casting will be provided
-    Workability test and cube casting will be conducted on 31/01/2025. 
-    All groups must report at 9:30 am. 
-    Testing of cubes is scheduled at 10:00 am on the date 07/02/2025 at material testing lab, FISAT.
-    Participants should carry their college ID cards for verification.
-    Decision of the evaluation panel will be final and binding.
-    Participation certificates will be provided to all.
-
->>>>>>> e18c1c65a860f5d342c4f4af968036342dfa46e8
      `,
       date: "31st Jan 2025",
       type: "Technical",
@@ -49,7 +34,6 @@ const events = [
     {
       name: "Idea Pitching",
       img: "./notpublic/ideapitching.webp",
-<<<<<<< HEAD
       price: "₹300",
       desc: `Team size: 2 members (ID card is mandatory).
       The topic should focus on a civil engineering solution to a socially relevant issue.
@@ -61,19 +45,6 @@ const events = [
       Evaluation criteria include topic relevance, solution feasibility, and presentation clarity.
       Certificates will be provided to all participants.
       `,
-=======
-      price: 300,
-      desc: `Team size: 2 members (ID card is mandatory).
-The topic should focus on a civil engineering solution to a socially relevant issue.
-Teams can utilize presentations to ensure that the content is presented in a clear and legible format.
-Submit your presentation slides by January 30, 2025 (Google form will be provided)
-Reporting time: 15 minutes before the allotted time
-Each team is allocated a maximum of 10 minutes for their presentation. 
-Exceeding this time limit will result in a deduction of marks for every extra minute.
-Evaluation criteria include topic relevance, solution feasibility, and presentation clarity.
-Certificates will be provided to all participants.
-`,
->>>>>>> e18c1c65a860f5d342c4f4af968036342dfa46e8
       date: "31st Jan 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSeuQ9y88s6Z8cyFmMbvM71PWEK0bWFBMs5v_8aV2tX96A84kg/viewform?usp=header"
@@ -92,15 +63,9 @@ Certificates will be provided to all participants.
       reg:" https://docs.google.com/forms/d/e/1FAIpQLSfNW-hnuNUjkFuR83HJwl55lqGPYSxu98YrsZiNjFlfZ7m69Q/viewform?usp=header"
     },
     {
-<<<<<<< HEAD
       name: "Cad Edge",
       img: "./notpublic/cadedge.webp",
       price: "₹150",
-=======
-      name: "CAD Edge",
-      img: "./notpublic/autocad.webp",
-      price: 150,
->>>>>>> e18c1c65a860f5d342c4f4af968036342dfa46e8
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
        Allotted time for the competition is 2.5 hours.
@@ -301,11 +266,7 @@ const registerEvent = document.getElementById("register-event")
 registerEvent.href = currentEvent.reg
 
 const erate = document.getElementById("erate")
-<<<<<<< HEAD
 erate.innerHTML = "REG FEES : "+currentEvent.price
-=======
-erate.innerHTML = "Registeration Fee : ₹"+currentEvent.price
->>>>>>> e18c1c65a860f5d342c4f4af968036342dfa46e8
 
 const eventDate = document.getElementById("eventDate")
 eventDate.innerHTML = "DATE : " +currentEvent.date
