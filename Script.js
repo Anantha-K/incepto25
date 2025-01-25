@@ -140,8 +140,8 @@ const schedule = {
     day2: [
       { time: "1:30pm-3:30pm", event: "Geothon", venue: "Library seminar hall" },
       { time: "10:30am-12:00pm", event: "The Disaster Zone Escape", venue: "S7 CE A classroom" },
-      { time: "1:30pm-2:30pm", event: "Debate", venue: "Civil Seminar hall" },
-      { time: "2:00pm-4:00pm", event: "Autocad", venue: "CADD lab" },
+      { time: "9:30pm-10:30pm", event: "Debate", venue: "Civil Seminar hall" },
+      { time: "2:00pm-4:30pm", event: "Cad Edge", venue: "CADD lab" },
     ]
   };
 
