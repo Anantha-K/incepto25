@@ -103,7 +103,7 @@ const events = [
       Certificates will be provided to all participants.`,
       date: "31st Jan 2025",
       type: "Technical",
-      reg:"https://docs.google.com/forms/d/e/1FAIpQLSdrtDbrLqeJNaffiicvIsz8GtWMXmtu-AQcpn13C0ixBh0QsA/viewform?usp=header"
+      reg:"https://docs.google.com/forms/d/e/1FAIpQLSe1eb5-wOpTb0xzwLMzhxqU-wk5edZc9nqH86-dnGC7skixNw/viewform?usp=header"
     },
     {
       name: "Debate Dual",
