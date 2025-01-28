@@ -65,7 +65,7 @@ const events = [
     {
       name: "Cad Edge",
       img: "./notpublic/cadedge.webp",
-      price: "₹150",
+      price: "₹100",
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
        Allotted time for the competition is 2.5 hours.
@@ -256,21 +256,21 @@ const events = [
       1.Game Duration
 • Each match is limited to 6 minutes. If a winner is not determined within the allotted time, refer to tie-breaking rules outlined by the committee (e.g., sudden death or round differential).
 2. Tournament Format
-• Knockout Format:
-• The tournament will follow a single-elimination format.
-• Once a team is eliminated, they will not be allowed to re-enter the tournament under any circumstances.
+  • Knockout Format:
+  • The tournament will follow a single-elimination format.
+  • Once a team is eliminated, they will not be allowed to re-enter the tournament under any circumstances.
 3. Decisions
-• All decisions made by the tournament committee are final and binding.
-• Participants are expected to respect and comply with the rulings made during the tournament.
+  • All decisions made by the tournament committee are final and binding.
+  • Participants are expected to respect and comply with the rulings made during the tournament.
 4. Fixture Changes
-• The organizing committee reserves the right to modify match fixtures or the overall tournament format if deemed necessary.
-• Any changes will be communicated to the participants promptly.
+  • The organizing committee reserves the right to modify match fixtures or the overall tournament format if deemed necessary.
+  • Any changes will be communicated to the participants promptly.
 5. Malpractice
-• Players have the right to file an appeal against suspected malpractice with an Appeal Fee of 25.
-• Appeals must be submitted within a reasonable timeframe for consideration.
-• If any form of malpractice (e.g., cheating, collusion, or exploiting) is confirmed, the player/team involved will be immediately disqualified from the tournament.
-• The match will be conducted in offline mode
-• Minimum Player 25
+  • Players have the right to file an appeal against suspected malpractice with an Appeal Fee of 25.
+  • Appeals must be submitted within a reasonable timeframe for consideration.
+  • If any form of malpractice (e.g., cheating, collusion, or exploiting) is confirmed, the player/team involved will be immediately disqualified from the tournament.
+  • The match will be conducted in offline mode
+  • Minimum Player 25
       `,
       date: "28 Jan 2025",
       type: "Other",
@@ -315,7 +315,7 @@ const events = [
       reg:"https://forms.gle/vE82ddz7AXSC49RaA"
     },
     {
-      name: "Valorant",
+      name: "Valorant Tournament",
       img: "./notpublic/valorant.jpeg",
       price: "₹500/team",
       desc: `
@@ -340,6 +340,22 @@ const events = [
       date: "29 Jan 2025",
       type: "Other",
       reg:"https://forms.gle/vE82ddz7AXSC49RaA"
+    },
+    {
+      name: "CHASSE AU TRESOR 2.0",
+      img: "./notpublic/valorant.jpeg",
+      price: "₹500/team",
+      desc: `
+   • Team Size: Maximum 4 members
+• Clues: Hidden across FISAT Campus in a sequence where one clue leads to another
+• Types of Questions: Both technical and nontechnical
+• Objective: The winning team will be the one that reaches the Chasse Au Tresor 2.0 main desk with the treasure in the shortest time
+• Winners Announcement: Winners will be announced on the final day (ist Feb, 2025)
+• Registration: Spot registrations are allowed
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:"https://docs.google.com/forms/d/e/1FAIpQLSfpBfprbt00--jia3ajbDe4H7J_TspERk5wBgT9kaIN7wYrgg/viewform?usp=header"
     },
   ];
   
