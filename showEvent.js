@@ -353,7 +353,7 @@ const events = [
     },
     {
       name: "CHASSE AU TRESOR 2.0",
-      img: "./notpublic/valorant.jpeg",
+      img: "./notpublic/Treasure.jpeg",
       price: "₹500/team",
       desc: `
    • Team Size: Maximum 4 members
