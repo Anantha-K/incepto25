@@ -348,3 +348,8 @@ nav a:hover {
   font-size: 1.2rem;
   padding: 0 20px;
 }
+
+.contact-section a{
+  text-decoration: none !important;
+  color: black !important;
+}

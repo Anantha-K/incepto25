@@ -2,7 +2,7 @@ const events = [
     // Technical events
     {
         name: "Geothon",
-        img: "./notpublic/geothon.webp",
+        img: "./notpublic/geothon.jpeg",
         price: "₹300",
         desc: `Team size : 4 members (ID card is mandatory).
         A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
@@ -33,7 +33,7 @@ const events = [
     },
     {
       name: "Idea Pitching",
-      img: "./notpublic/ideapitching.webp",
+      img: "./notpublic/ideapitching.jpeg",
       price: "₹200",
       desc: `Team size: 2 members (ID card is mandatory).
       The topic should focus on a civil engineering solution to a socially relevant issue.
@@ -64,7 +64,7 @@ const events = [
     },
     {
       name: "Cad Edge",
-      img: "./notpublic/cadedge.webp",
+      img: "./notpublic/autocad.jpeg",
       price: "₹100",
       desc: `Individual Participation (ID card is mandatory).
       Participants are expected to develop a plan, section and elevation from the line sketch provided. 
@@ -78,7 +78,7 @@ const events = [
     },
     {
       name: "Disaster Zone Escape",
-      img: "./notpublic/dis.webp",
+      img: "./notpublic/disaster.jpeg",
       price: "₹200",
       desc: `1.⁠ ⁠Participation is limited to teams of two only.
 2.⁠ ⁠Teams must develop the best evacuation and mitigation plan and present it using a PPT presentation.
