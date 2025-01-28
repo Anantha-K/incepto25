@@ -242,7 +242,6 @@ const events = [
       Players must report 15 minutes before their match starts
       The decisions made by the committee and referees are final and binding
       Committee have the right to change the rules, regulations and fixtures as required
-      Winners will be awarded activity points according to KTU rules abd regulations.
 
 10 Activity Points will be awarded to Winners according to KTU guidelines.
 
