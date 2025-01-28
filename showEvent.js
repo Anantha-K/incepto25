@@ -252,61 +252,94 @@ const events = [
       name: "PES 2025",
       img: "./notpublic/pes.jpeg",
       price: "₹59",
-      desc: `The registration is limited to the first 16 teams only.
-      Players must wear boots, socks, jerseys and shin guards
-      Total game time: 30 minutes (Two halves of 15 min each)
-      A Total of 10 players (7 on -field players and 3 substitutes
-      All participants in a team must be from the same year and department, Only one team from one year (eg; CE 1st year , CE 2nd year, CE 3rd year, CE 4th year team)
-      The tournament follows a knockout format.
-      Re-entry is not allowed for eliminated teams
-      The offside rule will be applicable
-      Players must report 15 minutes before their match starts
-      The decisions made by the committee and referees are final and binding
-      Committee have the right to change the rules, regulations and fixtures as required
+      desc: `
+      1.Game Duration
+• Each match is limited to 6 minutes. If a winner is not determined within the allotted time, refer to tie-breaking rules outlined by the committee (e.g., sudden death or round differential).
+2. Tournament Format
+• Knockout Format:
+• The tournament will follow a single-elimination format.
+• Once a team is eliminated, they will not be allowed to re-enter the tournament under any circumstances.
+3. Decisions
+• All decisions made by the tournament committee are final and binding.
+• Participants are expected to respect and comply with the rulings made during the tournament.
+4. Fixture Changes
+• The organizing committee reserves the right to modify match fixtures or the overall tournament format if deemed necessary.
+• Any changes will be communicated to the participants promptly.
+5. Malpractice
+• Players have the right to file an appeal against suspected malpractice with an Appeal Fee of 25.
+• Appeals must be submitted within a reasonable timeframe for consideration.
+• If any form of malpractice (e.g., cheating, collusion, or exploiting) is confirmed, the player/team involved will be immediately disqualified from the tournament.
+• The match will be conducted in offline mode
+• Minimum Player 25
       `,
       date: "28 Jan 2025",
       type: "Other",
-      reg:""
+      reg:"https://forms.gle/VRcyHXXCzbYCiJyh9"
     },
     {
       name: "BGMI",
       img: "./notpublic/bgmi.jpeg",
       price: "₹65",
-      desc: `The registration is limited to the first 16 teams only.
-      Players must wear boots, socks, jerseys and shin guards
-      Total game time: 30 minutes (Two halves of 15 min each)
-      A Total of 10 players (7 on -field players and 3 substitutes
-      All participants in a team must be from the same year and department, Only one team from one year (eg; CE 1st year , CE 2nd year, CE 3rd year, CE 4th year team)
-      The tournament follows a knockout format.
-      Re-entry is not allowed for eliminated teams
-      The offside rule will be applicable
-      Players must report 15 minutes before their match starts
-      The decisions made by the committee and referees are final and binding
-      Committee have the right to change the rules, regulations and fixtures as required
+      desc: `
+      1.Registration
+• All participants must register with accurate personal and in-game details.
+2. Tournament Format
+• The tournament will follow a knockout format:
+• Teams or players eliminated from the tournament cannot re-enter.
+• Each match will proceed based on elimination until a winner is determined.
+3. Decisions
+• All decisions made by the tournament committee are final and binding.
+• Participants are required to respect and comply with all rulings.
+4. Fixture Changes
+• The organizing committee reserves the right to make adjustments to the fixtures or tournament format if necessary.
+• Any changes will be promptly communicated to all participants.
+5. Malpractice
+• Players may file an appeal against any suspected malpractice by paying an Appeal Fee of 725.
+• If any form of malpractice (e.g., cheating, exploiting, or unsportsmanlike behavior) is proven, the player/team will be immediately eliminated from the tournament.
+6. Match Types
+• Matches may be played in one of the following formats:
+• Solo: Individual players.
+• Duo: Teams of two players.
+• Squad: Teams of five players.
+7. Scoring
+• Points will be awarded based on:
+• Kills: Number of eliminations achieved during the match.
+• Placement: Final position at the end of the match.
+8. Custom Room Rules
+• All players are requested to join the custom room at least 10 minutes prior to the scheduled start time.
+• Late arrivals may result in disqualification.
+• Minimum players 25 for each category
       `,
       date: "29 Jan 2025",
       type: "Other",
-      reg:""
+      reg:"https://forms.gle/vE82ddz7AXSC49RaA"
     },
     {
       name: "Valorant",
       img: "./notpublic/valorant.jpeg",
       price: "₹500/team",
-      desc: `The registration is limited to the first 16 teams only.
-      Players must wear boots, socks, jerseys and shin guards
-      Total game time: 30 minutes (Two halves of 15 min each)
-      A Total of 10 players (7 on -field players and 3 substitutes
-      All participants in a team must be from the same year and department, Only one team from one year (eg; CE 1st year , CE 2nd year, CE 3rd year, CE 4th year team)
-      The tournament follows a knockout format.
-      Re-entry is not allowed for eliminated teams
-      The offside rule will be applicable
-      Players must report 15 minutes before their match starts
-      The decisions made by the committee and referees are final and binding
-      Committee have the right to change the rules, regulations and fixtures as required
+      desc: `
+      • Map Selection:
+• Map Pool: List the available maps (current active rotation in Valorant).
+• Examples: Ascent, Haven, Bind, Split, Lotus, Pearl, Sunset.
+• Match Settings:
+• Game Mode: Standard (Spike Defuse).
+• Win Condition: First to 13 rounds
+• Overtime: Enabled; MR3 (win by 2 rounds).
+• Code of Conduct
+• Sportsmanship: All players are expected to maintain respect and professionalism.
+• Cheating: Use of hacks, third-party software, or exploiting bugs will lead to disqualification.
+• Internet & Hardware: Players are responsible for stable internet and functioning equipment.
+• Disconnects:
+• Matches will not be paused for disconnects
+• Custom Room Rules
+• All players are requested to join the custom room at least 10 minutes prior to the scheduled start time.
+• Late arrivals may result in disqualification.
+• Minimum teams 8
       `,
       date: "29 Jan 2025",
       type: "Other",
-      reg:""
+      reg:"https://forms.gle/vE82ddz7AXSC49RaA"
     },
   ];
   
