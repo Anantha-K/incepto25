@@ -9,19 +9,78 @@
     <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Audiowide&family=Bebas+Neue&family=Pattaya&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .tab-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .tab-button {
+            padding: 10px 30px;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(135deg, #ffd700, #e6b800, #b8860b, #8b6914);
+            color: white;
+            cursor: pointer;
+            font-family: 'Bebas Neue', serif;
+            font-size: 20px;
+            transition: transform 0.2s;
+        }
+        
+        .tab-button:hover {
+            transform: scale(1.05);
+        }
+        
+        .tab-button.active {
+            background: linear-gradient(135deg, #8b6914, #b8860b, #e6b800, #ffd700);
+        }
+        
+        .events-section {
+            display: none;
+            padding: 0 30px;
+        }
+        
+        .events-section.active {
+            display: block;
+        }
 
+        .event-card {
+            transition: transform 0.3s;
+        }
+
+        .event-card:hover {
+            transform: scale(1.05);
+        }
+
+        .events-events {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5vw;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body style="margin: 0; height: fit-content;background-color: #101010;font-family: 'Bebas Neue', serif;color:white">
     <a href="./index.html"><button style="border-radius: 50%; height: 30px;width: 30px;margin-top: 30px;margin-left: 30px;background:linear-gradient(135deg, #ffd700, #e6b800, #b8860b, #8b6914);"><i class="fas fa-arrow-left" style="font-size: 16px;"></i></button></a>
-    <div style="margin-left: 30px;margin-top: 30px;">
-        <h1>TECHNICAL EVENTS</h1>
-        <div class="events-events" style="flex-wrap: wrap;gap:5vw;margin-top: 30px;display: flex;justify-content: space-evenly;height: fit-content;max-width: 100vw;">
-            
+    
+    <div class="tab-container">
+        <div class="tab-buttons">
+            <button class="tab-button active" onclick="showTab('technical', this)">Technical Events</button>
+            <button class="tab-button" onclick="showTab('fun', this)">Fun Events</button>
+            <button class="tab-button" onclick="showTab('esports', this)">E-Sports</button>
+        </div>
+    </div>
+
+    <div id="technical" class="events-section active">
+        <div class="events-events">
             <a href="../eventTemplate.html?data=00">
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/geothon.jpeg);background-size: cover;" class="event-card">
                 </div>
@@ -31,6 +90,7 @@
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/cubix.webp);background-size: cover;" class="event-card">
                 </div>
             </a>
+            
             <a href="../eventTemplate.html?data=02">
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/ideapitching.jpeg);background-size: cover;" class="event-card">
                 </div>
@@ -60,38 +120,20 @@
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/debate.webp);background-size: cover;" class="event-card">
                 </div>
             </a>
-
         </div>
-
     </div>
 
-    <!-- <div>
-        <h1 style="margin-left: 30px;margin-top: 30px;">FUN EVENTS</h1>
-        <div class="events-events" style="margin-left: 5vw;flex-wrap: wrap;gap:5vw;margin-top: 30px;display: flex;justify-content: space-between;height: fit-content;max-width: 100vw;">
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-            
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-            
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
+    <div id="fun" class="events-section">
+        <div class="events-events">
+            <a href="../eventTemplate.html?data=13">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/fun1.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
         </div>
-    </div> -->
+    </div>
 
-    <div>
-        <h1 style="margin-left: 30px;margin-top: 30px;">OTHERS</h1>
-        <div class="events-events" style="margin-left: 30px;flex-wrap: wrap;gap:5vw;margin-top: 30px;display: flex;justify-content: space-between;height: fit-content;max-width: 100vw;">
+    <div id="esports" class="events-section">
+        <div class="events-events">
             <a href="../eventTemplate.html?data=08">
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/football.webp);background-size: cover;" class="event-card">
                 </div>
@@ -106,34 +148,32 @@
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/bgmi.jpeg);background-size: cover;" class="event-card">
                 </div>
             </a>
+
             <a href="../eventTemplate.html?data=11">
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/valorant.jpeg);background-size: cover;" class="event-card">
                 </div>
             </a>
 
-
             <a href="../eventTemplate.html?data=12">
                 <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Treasure.jpeg);background-size: cover;" class="event-card">
                 </div>
             </a>
-           
-            
-            <!-- <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div>
-            
-            <div style="border-radius: 15px; height:50vh; min-width:20vw;background:url(./cs.webp);background-size: cover;" class="event-card">
-            </div> -->
-
         </div>
     </div>
+
+    <script>
+        function showTab(tabName, clickedButton) {
+            document.querySelectorAll('.events-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            document.getElementById(tabName).classList.add('active');
+            
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('active');
+            });
+            clickedButton.classList.add('active');
+        }
+    </script>
 </body>
 </html>
