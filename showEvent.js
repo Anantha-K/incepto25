@@ -243,6 +243,9 @@ const events = [
       The decisions made by the committee and referees are final and binding
       Committee have the right to change the rules, regulations and fixtures as required
       Winners will be awarded activity points according to KTU rules abd regulations.
+
+10 Activity Points will be awarded to Winners according to KTU guidelines.
+
       `,
       date: "24,25 Jan 2025",
       type: "Other",
@@ -271,6 +274,9 @@ const events = [
   • If any form of malpractice (e.g., cheating, collusion, or exploiting) is confirmed, the player/team involved will be immediately disqualified from the tournament.
   • The match will be conducted in offline mode
   • Minimum Player 25
+
+10 Activity Points will be awarded to Winners according to KTU guidelines.
+
       `,
       date: "28 Jan 2025",
       type: "Other",
@@ -309,6 +315,8 @@ const events = [
 • All players are requested to join the custom room at least 10 minutes prior to the scheduled start time.
 • Late arrivals may result in disqualification.
 • Minimum players 25 for each category
+
+10 Activity Points will be awarded to Winners according to KTU guidelines.
       `,
       date: "29 Jan 2025",
       type: "Other",
@@ -336,6 +344,9 @@ const events = [
 • All players are requested to join the custom room at least 10 minutes prior to the scheduled start time.
 • Late arrivals may result in disqualification.
 • Minimum teams 8
+
+10 Activity Points will be awarded to Winners according to KTU guidelines.
+
       `,
       date: "29 Jan 2025",
       type: "Other",
@@ -352,6 +363,9 @@ const events = [
 • Objective: The winning team will be the one that reaches the Chasse Au Tresor 2.0 main desk with the treasure in the shortest time
 • Winners Announcement: Winners will be announced on the final day (ist Feb, 2025)
 • Registration: Spot registrations are allowed
+
+10 Activity Points will be awarded to Winners according to KTU guidelines.
+
       `,
       date: "29 Jan 2025",
       type: "Other",
