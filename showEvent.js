@@ -80,8 +80,7 @@ const events = [
       name: "Disaster Zone Escape",
       img: "./notpublic/dis.webp",
       price: "₹200",
-      desc: `
-      1.⁠ ⁠Participation is limited to teams of two only.
+      desc: `1.⁠ ⁠Participation is limited to teams of two only.
 2.⁠ ⁠Teams must develop the best evacuation and mitigation plan and present it using a PPT presentation.
 3.⁠ ⁠The total time allotted for the competition is one hour.
 4.⁠ ⁠Evaluation will focus on the practicality of the evacuation plan and the quality of the presentation.
