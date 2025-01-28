@@ -395,6 +395,17 @@ erate.innerHTML = "REG FEES : "+currentEvent.price
 const eventDate = document.getElementById("eventDate")
 eventDate.innerHTML = "DATE : " +currentEvent.date
 
+
+
 const eventCard = document.getElementsByClassName("event-card")
 eventCard[0].style.background = `url(${currentEvent.img})`;
 eventCard[0].style.backgroundSize = "cover";
+
+
+
+const activityPoints = document.getElementById("activity-points");
+if (currentEvent.type === "Technical") {
+    activityPoints.style.display = "block";
+} else {
+    activityPoints.style.display = "none";
+}
