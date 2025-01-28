@@ -3,7 +3,7 @@ const events = [
     {
         name: "Geothon",
         img: "./notpublic/geothon.webp",
-        price: "₹600",
+        price: "₹300",
         desc: `Team size : 4 members (ID card is mandatory).
         A geotechnical problem will be given at the venue on the first day and the engineering solution has to be presented on the second day.
        The presentation time is 15 minutes. Teams must adhere to this time limit. 
@@ -34,7 +34,7 @@ const events = [
     {
       name: "Idea Pitching",
       img: "./notpublic/ideapitching.webp",
-      price: "₹300",
+      price: "₹200",
       desc: `Team size: 2 members (ID card is mandatory).
       The topic should focus on a civil engineering solution to a socially relevant issue.
       Teams can utilize presentations to ensure that the content is presented in a clear and legible format.
@@ -79,7 +79,7 @@ const events = [
     {
       name: "Disaster Zone Escape",
       img: "./notpublic/dis.webp",
-      price: "₹300",
+      price: "₹200",
       desc: `Team size: 2 members (ID card is mandatory).
       Participants are expected to develop a evacuation and mitigation plan using flow charts, sketches, charts or models 3
       allotted time for the competition is two hours. 
