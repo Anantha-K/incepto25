@@ -242,6 +242,7 @@ const events = [
       Players must report 15 minutes before their match starts
       The decisions made by the committee and referees are final and binding
       Committee have the right to change the rules, regulations and fixtures as required
+      Winners will be awarded activity points according to KTU rules abd regulations.
       `,
       date: "24,25 Jan 2025",
       type: "Other",
