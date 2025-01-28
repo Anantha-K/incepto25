@@ -80,12 +80,14 @@ const events = [
       name: "Disaster Zone Escape",
       img: "./notpublic/dis.webp",
       price: "₹200",
-      desc: `Team size: 2 members (ID card is mandatory).
-      Participants are expected to develop a evacuation and mitigation plan using flow charts, sketches, charts or models 3
-      allotted time for the competition is two hours. 
-      Evaluation will be based on practicality, creativity and resource management while addressing the disaster 
-      Decision of the evaluation panel will be final and binding 
-      Certificates will be provided to all the participants.`,
+      desc: `
+      1.⁠ ⁠Participation is limited to teams of two only.
+2.⁠ ⁠Teams must develop the best evacuation and mitigation plan and present it using a PPT presentation.
+3.⁠ ⁠The total time allotted for the competition is one hour.
+4.⁠ ⁠Evaluation will focus on the practicality of the evacuation plan and the quality of the presentation.
+5.⁠ ⁠The decision of the evaluation panel will be final and binding.
+6.⁠ ⁠Certificates will be awarded to all participants.
+      `,
       date: "1st Feb 2025",
       type: "Technical",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSfdsGXm3C4cug2a1fCOUbNIJFLS98Ud4icf4cQcRXq71OTiew/viewform?usp=header"
