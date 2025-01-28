@@ -248,9 +248,9 @@ const events = [
       reg:""
     },
     {
-      name: "EFootball",
-      img: "./notpublic/football.webp",
-      price: "₹2000",
+      name: "PES 2025",
+      img: "./notpublic/pes.jpeg",
+      price: "₹59",
       desc: `The registration is limited to the first 16 teams only.
       Players must wear boots, socks, jerseys and shin guards
       Total game time: 30 minutes (Two halves of 15 min each)
@@ -263,10 +263,50 @@ const events = [
       The decisions made by the committee and referees are final and binding
       Committee have the right to change the rules, regulations and fixtures as required
       `,
-      date: "24,25 Jan 2025",
+      date: "28 Jan 2025",
       type: "Other",
       reg:""
-    }
+    },
+    {
+      name: "BGMI",
+      img: "./notpublic/bgmi.jpeg",
+      price: "₹65",
+      desc: `The registration is limited to the first 16 teams only.
+      Players must wear boots, socks, jerseys and shin guards
+      Total game time: 30 minutes (Two halves of 15 min each)
+      A Total of 10 players (7 on -field players and 3 substitutes
+      All participants in a team must be from the same year and department, Only one team from one year (eg; CE 1st year , CE 2nd year, CE 3rd year, CE 4th year team)
+      The tournament follows a knockout format.
+      Re-entry is not allowed for eliminated teams
+      The offside rule will be applicable
+      Players must report 15 minutes before their match starts
+      The decisions made by the committee and referees are final and binding
+      Committee have the right to change the rules, regulations and fixtures as required
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+    {
+      name: "Valorant",
+      img: "./notpublic/valorant.jpeg",
+      price: "₹500/team",
+      desc: `The registration is limited to the first 16 teams only.
+      Players must wear boots, socks, jerseys and shin guards
+      Total game time: 30 minutes (Two halves of 15 min each)
+      A Total of 10 players (7 on -field players and 3 substitutes
+      All participants in a team must be from the same year and department, Only one team from one year (eg; CE 1st year , CE 2nd year, CE 3rd year, CE 4th year team)
+      The tournament follows a knockout format.
+      Re-entry is not allowed for eliminated teams
+      The offside rule will be applicable
+      Players must report 15 minutes before their match starts
+      The decisions made by the committee and referees are final and binding
+      Committee have the right to change the rules, regulations and fixtures as required
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
   ];
   
   
