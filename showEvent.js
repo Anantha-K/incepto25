@@ -437,11 +437,20 @@ const events = [
       img: "./notpublic/Fun5.jpeg",
       price: "₹200",
       desc: `
+      • Event will be conducted as a team.
+• Maximum number of participants allowed in a team is 2 and 3.
+• A team of 3 V/S 3 or team of 2 V/S 2
+can play at a time.
+• All the safety equipments will be provided
+• Each person of Each team will get 20
+bullets per head.
+• Each team can finish there before lhr.
+• Spot Registration is not allowed.
 
       `,
       date: "31 Jan & 1 Feb 2025",
       type: "Other",
-      reg:""
+      reg:"https://forms.gle/V4nSw7HQKTvGP4nr8"
     },
 
     {
