@@ -355,7 +355,7 @@ const events = [
     {
       name: "CHASSE AU TRESOR 2.0",
       img: "./notpublic/Treasure.jpeg",
-      price: "₹500/team",
+      price: "₹200",
       desc: `
    • Team Size: Maximum 4 members
 • Clues: Hidden across FISAT Campus in a sequence where one clue leads to another
@@ -367,7 +367,7 @@ const events = [
 10 Activity Points will be awarded to Winners according to KTU guidelines.
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan 2025",
       type: "Other",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSfpBfprbt00--jia3ajbDe4H7J_TspERk5wBgT9kaIN7wYrgg/viewform?usp=header"
     },
@@ -385,7 +385,7 @@ const events = [
       desc: `
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan & 1 Feb 2025",
       type: "Other",
       reg:""
     },
@@ -397,7 +397,7 @@ const events = [
       desc: `
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan & 1 Feb 2025",
       type: "Other",
       reg:""
     },
@@ -409,7 +409,7 @@ const events = [
 
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan & 1 Feb 2025",
       type: "Other",
       reg:""
     },
@@ -428,7 +428,7 @@ const events = [
 
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan & 1 Feb 2025",
       type: "Other",
       reg:""
     },
@@ -439,7 +439,7 @@ const events = [
       desc: `
 
       `,
-      date: "29 Jan 2025",
+      date: "31 Jan & 1 Feb 2025",
       type: "Other",
       reg:""
     },
@@ -464,7 +464,7 @@ const events = [
 ● Participation Certificates will be provided.
 
       `,
-      date: "29 Jan 2025",
+      date: "01 Feb 2025",
       type: "Other",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSdWdg2Mg_Vs-SjhwxARmCFztaB2y2l5iSu-alLpaXMzPzRirw/viewform?usp=dialog"
     },
