@@ -64,6 +64,10 @@
             transition: transform 0.3s;
             width: 100%;
             max-width: 300px;
+            height: 45vh;
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
         }
 
         .event-card:hover {
@@ -89,13 +93,22 @@
                 gap: 8px;
             }
             
-            .event-card {
-                max-width: 100%;
-                height: 35vh !important;
+            .events-events {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                padding: 0 10px;
             }
             
-            .events-events {
-                gap: 15px;
+            .event-card {
+                width: 100%;
+                max-width: none;
+                height: 200px !important;
+                margin-bottom: 10px;
+            }
+            
+            a {
+                width: 100%;
             }
         }
     </style>
@@ -158,7 +171,27 @@
     <div id="fun" class="events-section">
         <div class="events-events">
             <a href="../eventTemplate.html?data=13">
-                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/fun1.jpeg);background-size: cover;" class="event-card">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun1.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
+            <a href="../eventTemplate.html?data=14">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun2.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
+            <a href="../eventTemplate.html?data=15">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun3.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
+            <a href="../eventTemplate.html?data=16">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun4.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
+            <a href="../eventTemplate.html?data=17">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun5.jpeg);background-size: cover;" class="event-card">
+                </div>
+            </a>
+            <a href="../eventTemplate.html?data=18">
+                <div style="border-radius: 15px; height:45vh; min-width:20vw;background:url(./notpublic/Fun6.jpeg);background-size: cover;" class="event-card">
                 </div>
             </a>
         </div>
