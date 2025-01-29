@@ -371,6 +371,103 @@ const events = [
       type: "Other",
       reg:"https://docs.google.com/forms/d/e/1FAIpQLSfpBfprbt00--jia3ajbDe4H7J_TspERk5wBgT9kaIN7wYrgg/viewform?usp=header"
     },
+
+
+
+
+
+
+
+    {
+      name: "Pillow Fight",
+      img: "./notpublic/Fun1.jpeg",
+      price: "₹50",
+      desc: `
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+
+    {
+      name: "Hand and Feet Hopscopch",
+      img: "./notpublic/Fun2.jpeg",
+      price: "₹30",
+      desc: `
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+    {
+      name: "Glass Tower Challenge",
+      img: "./notpublic/Fun3.jpeg",
+      price: "₹30",
+      desc: `
+
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+    {
+      name: "Escape Room",
+      img: "./notpublic/Fun4.jpeg",
+      price: "₹50",
+      desc: `
+   ● Team Size: 1 to 3 members
+● Time Limit:  15 minutes
+● No Mobile Phones: Participants cannot use phones or other gadgets.
+● No Physical Force: Players must not damage props, furniture, or the environment.
+● Follow Instructions: Adhere to the rules and instructions provided by the game master or clues.
+● No Outside Assistance: Teams cannot seek help from outsiders during the game.. Escape Task: Teams must complete the final task to officially escape and win.. Contestants who fail to follow the provided rules and guidelines will be disqualified. All decisions made by the organising committee are final.
+ 
+
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+    {
+      name: "Paint it Red",
+      img: "./notpublic/Fun5.jpeg",
+      price: "₹200",
+      desc: `
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:""
+    },
+
+    {
+      name: "Spot Choreo",
+      img: "./notpublic/Fun6.jpeg",
+      price: "₹100",
+      desc: `
+● Individual Participation (ID card is mandatory).
+ 
+● Participants will be allotted a song to perform for a minimum of 2 minutes.
+ 
+● The song track will be a surprise and can belong to any genre, such as Bollywood, Western, and Hip-Hop ,semi- classical etc.
+ 
+● Evaluation will be based on the participant's ability to adapt and perform moves in sync with the music.
+ 
+● Participants must maintain decorum and refrain from any offensive or inappropriate movements.
+ 
+● The decision of the evaluation panel will be final and binding.
+ 
+● Participation Certificates will be provided.
+
+      `,
+      date: "29 Jan 2025",
+      type: "Other",
+      reg:"https://docs.google.com/forms/d/e/1FAIpQLSdWdg2Mg_Vs-SjhwxARmCFztaB2y2l5iSu-alLpaXMzPzRirw/viewform?usp=dialog"
+    },
   ];
   
   
