@@ -494,6 +494,11 @@ eventDate.innerHTML = "DATE : " +currentEvent.date
 
 
 
+const registerbtn = document.getElementById("register-event");
+if(currentEvent.reg === ""){
+    registerbtn.style.display = "none";
+}
+
 const eventCard = document.getElementsByClassName("event-card")
 eventCard[0].style.background = `url(${currentEvent.img})`;
 eventCard[0].style.backgroundSize = "cover";
