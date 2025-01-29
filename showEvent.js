@@ -495,9 +495,16 @@ eventDate.innerHTML = "DATE : " +currentEvent.date
 
 
 const registerbtn = document.getElementById("register-event");
-if(currentEvent.reg === ""){
-    registerbtn.style.display = "none";
+const registrationText = document.getElementById("registration-text");
+
+if (currentEvent.reg === "") {
+  registerbtn.style.display = "none";
+  registrationText.textContent = "Spot Registration";
+} else {
+  registerbtn.style.display = "block";
+  registrationText.textContent = "";
 }
+
 
 const eventCard = document.getElementsByClassName("event-card")
 eventCard[0].style.background = `url(${currentEvent.img})`;
