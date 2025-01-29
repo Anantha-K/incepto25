@@ -131,18 +131,25 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 const schedule = {
     day1: [
-      { time: "10:30am-11:30am", event: "Geothon", venue: "Library seminar hall" },
-      { time: "11:00am-12:30pm", event: "Quiz", venue: "Mtech classroom" },
-      { time: "10:00am-12:30pm", event: "Cube Casting", venue: "Material Testing Lab" },
-      { time: "2:30pm-4:00pm", event: "Time Capsule", venue: "S7 CEB classroom" },
-      { time: "2:00pm-4:00pm", event: "Idea Pitching", venue: "Civil Seminar hall" },
-    ],
+        { time: "9:30am-10:10am", event: "Inauguration", venue: "Not specified" },
+        { time: "10:00am-12:30pm", event: "Cubix", venue: "Mtech classroom" },
+        { time: "10:30am-11:30am", event: "Technical Talk", venue: "Not specified" },
+        { time: "11:15am-12:15pm", event: "Geothon", venue: "Library seminar hall" },
+        { time: "11:30am-12:00pm", event: "Talk divya", venue: "Not specified" },
+        { time: "1:00pm-2:30pm", event: "Brain Battle", venue: "Not specified" },
+        { time: "2:30pm-4:30pm", event: "Idea pitching", venue: "Civil Seminar hall" },
+        { time: "2:30pm-4:00pm", event: "Time Capsule", venue: "S7 CEB classroom" },
+        { time: "4:30pm-6:00pm", event: "Jaming", venue: "Not specified" },
+        { time: "7:00pm-8:30pm", event: "Culturals", venue: "Not specified" }
+        ],
     day2: [
-      { time: "1:30pm-3:30pm", event: "Geothon", venue: "Library seminar hall" },
-      { time: "10:30am-12:00pm", event: "The Disaster Zone Escape", venue: "S7 CE A classroom" },
-      { time: "9:30am-10:30am", event: "Debate", venue: "Civil Seminar hall" },
-      { time: "2:00pm-4:30pm", event: "Cad Edge", venue: "CADD lab" },
-    ]
+        { time: "9:30am-10:30am", event: "Debate", venue: "Civil Seminar hall", coordinator: "Vishn" },
+        { time: "10:30am-12:30pm", event: "Disaster Zone Escape", venue: "S7 CE A classroom", coordinator: "Aque" },
+        { time: "1:30pm-3:30pm", event: "Geothon", venue: "Library seminar hall" },
+        { time: "2:00pm-4:30pm", event: "Caad edge", venue: "CADD lab", coordinator: "Amin" },
+        { time: "4:30pm-6:00pm", event: "Spot choreo", venue: "Not specified", coordinator: "There" },
+        { time: "6:30pm-8:00pm", event: "Pro show", venue: "Not specified", coordinator: "Denil" }
+        ]
   };
 
   function showSchedule(day) {
